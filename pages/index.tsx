@@ -1,8 +1,8 @@
 import * as React from 'react'
-import { Layout } from '../src/components/Layout'
+import { AppWithAuthentication } from '../src/components/Layout'
 
 export default props =>
-  <Layout>
+  <AppWithAuthentication>
     <div style={{height: '1350px'}}>
       <div className="bg-cover bg-center absolute z-0 h-screen bg-no-repeat"
            style={{ backgroundImage: 'url(\'http://preview.uxtheme.website/xpider-preview/xpider/img/hero-8.png\')' }}/>
@@ -115,4 +115,4 @@ export default props =>
         </div>
       </div>
     </div>
-  </Layout>
+  </AppWithAuthentication>
