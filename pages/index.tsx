@@ -31,7 +31,7 @@ export default props =>
                 <p className="text-xs sm:block hidden">* Legal text</p>
               </div>
               <div className="w-1/2 xl:pt-8 xl:items-center flex justify-end">
-                <img className="xl:w-3/5" src="http://preview.uxtheme.website/xpider-preview/xpider/img/mobile-4.png"
+                <img className="xl:w-3/5 xs:h-64" src="http://preview.uxtheme.website/xpider-preview/xpider/img/mobile-4.png"
                      alt="Mobile phone"/>
               </div>
             </div>
