@@ -3,7 +3,7 @@ import Router from 'next/router'
 import { connect } from 'react-redux'
 
 import { firebase } from '../firebase'
-import * as Routes from '../constants/routes'
+import Routes from '../constants/routes'
 
 export const withAuthentication = (Component) => {
   class WithAuthentication extends React.Component {

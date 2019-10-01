@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { connect } from 'react-redux'
 import Link from 'next/link'
-import * as Routes from '../constants/routes'
+import Routes from '../constants/routes'
 import { auth } from '../firebase'
 
 const Nav = ({ authUser }) => {
