@@ -7,11 +7,12 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start:dev": "next",
+    "start:dev": "now dev .",
     "build:dev": "next build",
     "build": "NODE_ENV=production next build",
     "export": "next export",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "now ."
   },
   "dependencies": {
     "firebase": "^6.6.1",
